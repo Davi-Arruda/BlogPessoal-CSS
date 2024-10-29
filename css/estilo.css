@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding-top: 0px;
+    font-family: 'Arial', sans-serif;
+    text-align: center
+}
+
+header {
+    background-color: #2574e7;
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    width: 50%;
+}
+
+section p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.noticias img {
+    width: 450px;
+    height: 300px;
+}
+
+.noticia1, .noticia2, .noticia3 {
+    margin-top: 80px;
+}
+
+.autor {
+    margin-top: 120px;
+    background-color: #2574e7;
+    color: white;
+}
+
+.autor h3 {
+    font-size: 30px;
+}
+
+.autor img {
+    width: 180px;
+    height: 200px;
+}
+
+.comentarios {
+    background-color: #2574e7;
+    color: white;
+    height: 100%;
+}
+
+.secaoComentarios {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.comentario1, .comentario2, .comentario3 {
+    background-color: rgba(57, 99, 129, 0.75);
+    border: #a1a1a1 solid 3px;
+    width: 25%;
+    height: 280px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #3a3c41;
+    padding: 50px;
+    color: white;
+}
+
+footer a {
+    color: #7ea0d3;
+}
+
+.comentarios h3 {
+    font-size: 30px;
+}
